@@ -1,45 +1,123 @@
-div.parent>div.redBox{
-    width: 1300px;
-    height: 300px;
-    margin: auto;
-    background-color: #EF3E54;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+div.parent>div.redbox{
+  width: 1300px;
+  height: 300px;
+  background-color: #EF394E;
+  margin: auto;
+  border-radius: 10px;
 }
-div.parent>div.redBox>img.box{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
-}
-div.parent>div.redBox>div.swiper{
-    height: 260px;
-    width: 1100px;
-    line-height: 300px;
-    display: inline-block;
-    position: absolute;
-    margin: auto;
-}
-
 
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
+}
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+div.parent>div.redbox>div.swiper{
+  width:1300px;
+  height:260px;
+  
+}
+
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div{
+  height: 260px;
+  
+  margin-top: 30px;
+}
+
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.main{
+  height: inherit;
+  width: inherit;
+  background-color: #EF394E;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.main>a{
+  text-decoration: none;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.main>a>h5{
+  margin:auto;
+  color: #FFFFFF;
+  margin-top:10px;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.main>a>img{
+  width: 70px;
+  height: 65px;
+  margin:auto;
+  margin-top: 10px;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.main>a>img.box{
+  width: 120px;
+  height: 90px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price{
+  width: 185px;
+  height: 70px;
+  margin: auto;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a{
+  text-decoration: none;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>span{
+  display:inline-block ;
+  color: #535374;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>h4{
+ display:inline-block ;
+ color: #535374;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>h4>div.off{
+  background-color:#EF394E;
+  border-radius: 10px;
+  color:#FFFFFF;
+  width:33px;
+  height: 18px;
+  font-size: 13px;
+  display: inline-block;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>del{
+  display: block;
+  font-size: 13px;
+  color:#535374 ;
+  opacity: 70% ;
+}
+
+
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.rest{
+  width: 260px;
+  height: 128px;
+  margin: auto;
+  background-color: deeppink;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>a{
+  text-decoration: none;
+  color: #535374;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>a>div.rest>div.circle{
+  width: 45px;
+  height: 45px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  border:2px #66D0DA solid;
+  margin: auto;
+  margin-bottom: 10px;
+}
+div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>a>div.rest>div.circle>span{
+  line-height: 45px;
+}
+

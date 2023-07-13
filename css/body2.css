@@ -3,7 +3,7 @@ div.parent>div.section{
     width: 1200px;
     height: 550px;
 }
-div.parent>div.section>h1{
+div.parent>div.section>h3{
     text-align: center;
     margin-top: 50px;
 }

@@ -1,0 +1,102 @@
+div.parent>div.violet{
+    width: 1300px;
+    height: 390px;
+    margin: auto;
+    background-color: #941B80;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+div.parent>div.violet>div.right{
+    width: 330px;
+    height: 335px;
+    display: inline-block;
+    margin: 0px 23px;
+    margin-top: 15px;
+    vertical-align: bottom;
+}
+div.parent>div.violet>div.right>img{
+    width: 330px;
+    margin-top: px;
+}
+div.parent>div.violet>div.right>div{
+    width:208;
+    height: 30px;
+    color: #FFFFFF;
+}
+div.parent>div.violet>div.right>button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border:2px solid #FFFFFF ;
+    background-color: #941B80;
+    color: #FFFFFF;
+}
+div.parent>div.violet>div.right>button>span{
+    vertical-align: top;
+}
+div.parent>div.violet>div.right>a>img{
+    width: 130;
+    height: 30;
+}
+div.parent>div.violet>div.left{
+    width: 870px;
+    height: 360px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 24px;
+    margin-top: 15px;
+}
+div.parent>div.violet>div.left>h4{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+div.parent>div.violet>div.left>h4>span{
+    vertical-align: top;
+
+}
+div.parent>div.violet>div.left>a{
+    display: inline-block;
+    text-decoration: none;
+    color: #941B80;
+    margin-right: 550px;
+}
+div.parent>div.violet>div.left>div.imgs{
+    width: 830px;
+    height: 290px;
+    margin: auto;
+    margin-top:5px;
+}
+div.parent>div.violet>div.left>div.imgs>div.one{
+    width: 830px;
+    height: 135px;
+}
+div.parent>div.violet>div.left>div.imgs>div.one>a{
+    display: inline-block;
+    margin: 0 9px;
+}
+div.parent>div.violet>div.left>div.imgs>div.one>a>img{
+    width: 116px;
+    height: 116px;
+}
+
+
+
+
+
+div.parent>div.violet>div.left>div.imgs>div.two{
+    width: 830px;
+    height: 135px;
+    margin-top: 20px;
+}
+div.parent>div.violet>div.left>div.imgs>div.two>a{
+    display: inline-block;
+    margin: 0 9px;
+    margin-top: 20px;
+}
+div.parent>div.violet>div.left>div.imgs>div.two>a>img{
+    width: 116px;
+    height: 116px;
+}
