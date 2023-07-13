@@ -2,60 +2,292 @@
 <html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digikala</title>
+    <title>Digikla</title>
+    
+    <link rel="stylesheet" href="./icon/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/main.css">
+ 
+
+
 </head>
 <body>
-<div class="mother">
-    <div class="header">
-         <img src="./img/735d6997f8ee38af621fa80b6cfc63e7e1f18e4f_1686396233.webp" alt=""> 
-    </div>
-
-    <div class="one">
-        <a href="#" align="left">
-            <img src="./img/logo.svg" alt="">
-        </a>
-        <form action="" method="" >
-            <input type="search" placeholder="جسنجو">
-        </form>
-        <button>ورود|ثبت نام</button>
-    </div>
-
-    <div class="menu">
-
-    </div>
-
-    <div class="two"></div>
-
-    <div class="three">
-        <a href="#">
-            <img src="./img/db512f16f185d47c0acbb1cd84b5df4a7bee08d0_1686143150.webp" alt="">
-        </a>
-    </div>
-    <div class="four">
-        <a href="#">
-            <img src="./img/625d8883f37944f3f0c4af5fe39435600931ab22_1664309850.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./img/6c69096a524add2d4646cd162dfa5f66d4ddceac_1668952039.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./img/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./img/967cbaa25713ca4d0e58cb5aaf0e486ab986d460_1648898393.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./img/ac127167132653d14c758748b07824a6a7643a31_1663444619.png" alt="">
-        </a>
-        <a href="">
-            <img src="./img/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png" alt="">
-       
-
-    </div>
     
+    <div class="parent">
+
+    <!-- header --> 
+
+        <div class="header">
+            <a href="#"class="one"><img src="./img/735d6997f8ee38af621fa80b6cfc63e7e1f18e4f_1686396233.webp" alt=""> </a>
+        <div class="headertwo">
+          <a href="#" class="two"><img src="./img/logo.svg" alt=""></a>
+
+            <form action="">
+                <input type="search" placeholder="جستجو">
+            </form>
+
+            <button>ورود|ثبت نام </button>
+
+            <span>
+              <svg style="display:none;">
+                <symbol id="cartOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></symbol>
+              </svg>
+              <svg style="width: 24px; height: 22px; fill:#3F4064;"><use xlink:href="#cartOff"></use></svg>
+            </span>
+        </div>
+            
+
+
+        </div>
+
+            <!-- menu -->
+    
+            <div class="menu">
+            
+
+                <nav>
+                    <ul>
+                      <li><a href="#">دسته‌بندی کالاها </a> 
+                          <!-- second menu -->
+                        <ul>
+                          <li><a href="#">موبایل</a></li>
+                          <li><a href="#">کالای دیجیتال</a></li>
+                          <li><a href="#">خانه و آشپزخانه</a></li>
+                          <li><a href="#">مد و پوشاک</a></li>
+                          <li><a href="#">کالاهای سوپرمارکتی</a></li>
+                          <li><a href="#">کتاب، لوازم تحریر و هنر</a></li>
+                          <li><a href="#">اسباب بازی، کودک و نوزاد</a></li>
+                          <li><a href="#">زیبایی و سلامت</a></li>
+                          <li><a href="#">ورزش و سفر</a></li>
+                          <li><a href="#">ابزار آلات و تجهیزات</a></li>
+                          <li><a href="#">خودرو و موتورسیکلت</a></li>
+                          <li><a href="#">محصولات بومی و محلی</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">سوپرمارکت</a></li>
+                        <li><a href="#">پرفروش‌ترین‌ها</a></li>
+                        <li><a href="#">تخفیف‌ها و پیشنهادها</a></li>
+                        <li><a href="#">شگفت‌انگیزها</a></li>
+                        <li><a href="#">سوالی دارید؟</a></li>
+                        <li><a href="#">در دیجی‌کالا بفروشید!</a></li>
+                    </ul>
+
+
+                    <form action="" enctype="multipart/form-data">
+                        <label for="city">لطفا شهر خود را انتخاب کنید</label>
+                        <select name="city" id="city">
+                            <option value="tehran">تهران</option>
+                            <option value="tabriz">تبریز</option>
+                            <option value="rasht">رشت</option>
+                        </select>
+                    </form>
+                </nav>
+    
+            
+            
+            
+            
+            </div>
+
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./img/35e74ed89753efb7d9165f7bcbdb90d05190a527_1686057869.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/43e35cea1d80101cee6b33780e9212e1cf135164_1686385115.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/db512f16f185d47c0acbb1cd84b5df4a7bee08d0_1686143150.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/d84d1a5d0037f23e3cf8421db4cb72a021649fdb_1688359565.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/007db2fdf5077f1206a02a6bcf8910d79194e87b_1687865437.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/1de44fe6cf76b1f4cfa86d829d4dc600be2f0194_1688452652.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/ffacaa880b73f311c583afc91d9193ba66a47108_1688455580.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/75ef5688a3694c09a4f155a77416a7c6f99cada1_1688462158.webp" alt=""></div>
+ 
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- swiper js part-->
+  <script src="./swiper/swiper-bundle.min.js"></script>
+
+   <!-- icon -->
+
+  <div class="icon">
+    <div class="one">
+    <a href="#"><img src="./img/625d8883f37944f3f0c4af5fe39435600931ab22_1664309850.png" alt=""><figcaption>دیجی کالا جت</figcaption></a>
+    <a href="#"><img src="./img/ac127167132653d14c758748b07824a6a7643a31_1663444619.png" alt=""><figcaption>حراج استایل</figcaption></a>
+    <a href="#"><img src="./img/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png" alt=""><figcaption>خرید اقساطی</figcaption></a>
+    <a href="#"><img src="./img/6c69096a524add2d4646cd162dfa5f66d4ddceac_1668952039.png" alt=""><figcaption>خرید عمده و سازمانی</figcaption></a>
+    <a href="#"><img src="./img/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png" alt=""><figcaption>شگفت سوپر مارکتی</figcaption></a> 
+    <a href="#"><img src="./img/967cbaa25713ca4d0e58cb5aaf0e486ab986d460_1648898393.png" alt=""><figcaption>ارسال امروز</figcaption></a>
+    <a href="#"><img src="./img/bfcafaf7f0afffbfd326adc48e29e3449dd69910_1688462197.png" alt=""><figcaption>دیجی پلاس</figcaption></a>
+    <a href="#"><img src="./img/images.png" alt=""><figcaption>بیشتر</figcaption></a>
+    </div>
+    </div>
+
+    <!-- red box swiper-->
+
+    <div class="redBox">
+        <img src="./img/Amazings.svg" alt="">
+        <img src="./img/box.png" alt="" class="box">
+
+        
+    <!-- Swiper -->
+   <div class="swiper mySwipere">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./img/d7c6775820d1e01f014c7c7cb7793911b4cb6d1f_1646457016.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/670377aea3c342c8cbc294e0a9568c54b371ebe5_1671619043.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/010f2ed62002dd287664f5b1f5060c2da574a15f_1678006292.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/7bcf163fcfa57394e464a6abb90e15a55c96f128_1678188583.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/161e39c77cbdba3914336727bf53e8ce807cb6b1_1664883612.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/687f22649164e3da51729e2d8c50edf5c00c291a_1604843599.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/726af46d9618d202cf16d5fe69e951d8ba5ae459_1626267079.webp" alt=""></div>
+      <div class="swiper-slide"><img src="./img/3c25265c165fe3b6c48f181b82f20795d9959bb8_1676482326.webp" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+  <!-- js -->
+<script src="./swiper/swiper-bundle.min.js"></script>
+   
 </div>
+      
+
+<div class="body">
+  <div class="green">
+    <img src="./img/fresh.svg" alt="" class="two">
+    <img src="./img/fresh.png" alt="" class="tree">
+
+  
+    <div class="off">
+      <a href="#"><img src="./img/c504188727a524d49724bfec7143b5ddce663bb6_1671433368.jpg" alt=""></a>
+      <a href="#"><img src="./img/967dcab878ff157b63adab02a5390dc2dd1f9dcb_1604753438.jpg" alt=""></a>
+      <a href="#"><img src="./img/364b2ab23ce093714399372a49fc19dab93d75e6_1629190673.jpg" alt=""></a>
+      <a href="#"><img src="./img/30f64f1276526dd3384575e17d0514ad8d6623ca_1607230907.jpg" alt=""></a>
+      <a href="#"><img src="./img/2752773.jpg" alt=""></a>
+      <a href="#"><img src="./img/0434b0acc6f91841753e4b1d490eb7b6c9fbed93_1631364481.jpg" alt=""></a>
+    </div>
+  </div>
+
+  <div class="four"> 
+    <a href="#"><img src="./img/d31a80d2ea931f08317b726b74cf417ffe0c2a6f_1688478968.jpg" alt=""></a>
+    <a href="#"><img src="./img/798082ab645726f660e0130a78b14c86b9bcd336_1684071126.jpg" alt=""></a>
+    <a href="#"><img src="./img/1d2d561df25c1746820de7cb16b7627ebd57cd63_1688550723.jpg" alt=""></a>
+    <a href="#"><img src="./img/6ffa5c9aa0fdf023c5011766d39708b828af10f7_1687875626.jpg" alt=""></a>
+  </div>
+
+
 </div>
+
+<div class="section">
+  <h1>دسته بندی های دیجی کالا</h1>
+  <div class="one">
+    <a href="#"><img src="./img/5795b31a635f1e23df96a908c009f31744ede38f_1656160928.png" alt="" ><figcaption>مد و پوشاک</figcaption></a>
+    <a href="#"><img src="./img/5d89d5b168e5ed079d619181e849cc737ec42c8d_1678698730.png" alt=""><figcaption>ابزار آلات و تجهیزات</figcaption></a>
+    <a href="#"><img src="./img/8f80e75e4c2dca42ee0538e100c7a7b05455aa88_1662360265.png" alt=""><figcaption>کالای دیجیتال</figcaption></a>
+    <a href="#"><img src="./img/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png" alt=""><figcaption>موبایل</figcaption></a>
+    <a href="#"><img src="./img/da24c42172585abb0c328accf85d071049c4253e_1656161034.png" alt=""><figcaption>کالاهای سوپرمارکتی</figcaption></a>
+    <a href="#"><img src="./img/af02140ea60e0fd478b09b279976a095c95615b6_1656161174.png" alt=""><figcaption>محصولات بومی و محلی</figcaption></a>
+  </div>
+  <div class="two">
+    <a href="#"><img src="./img/0c3cc1cb589df1c74c4ad95a742bb6df967956a8_1656161119.png" alt="" ><figcaption>خانه و آشپزخانه</figcaption></a>
+    <a href="#"><img src="./img/0c46d2532d61dd3a5b6a3afc17552c23c1b4d39e_1656160976.png" alt=""><figcaption>اسباب بازی، کودک و نوزاد</figcaption></a>
+    <a href="#"><img src="./img/0cefa48f5c58adbbde8c5a76b22ee49de0e667f5_1656161101.png" alt=""><figcaption>زیبایی و سلامت</figcaption></a>
+    <a href="#"><img src="./img/1c44d5964f259e0725ec86ca9739de888f1862c7_1656161158.png" alt=""><figcaption>ورزش و سفر</figcaption></a>
+    <a href="#"><img src="./img/3582bbed0a53318c2332d2c79b051b226f02a3bb_1656161134.png" alt=""><figcaption>کتاب، لوازم تحریر و هنر</figcaption></a>
+    <a href="#"><img src="./img/4e985adcf61dd54d4d8abe725a62ba3990ea1eb1_1678698550.webp" alt=""><figcaption>خودرو و موتورسیکلت</figcaption></a>
+  </div>
+  
+</div>
+
+  <div class="three">
+    <div class="abc"><a href="#"> <img src="./img/74f3710beb5b3a174107051932f43ff6243492b5_1688543687.jpg" alt=""></a></div>
+    <div class="def"><a href="#"> <img src="./img/97ca148976d84a8d420d5f9c445127bf957a1605_1688545540.webp" alt=""></a></div>
+  </div>
+
+  <div class="offer">
+    <h1>پیشنهاد دیجی‌کالا</h1>
+    <div class="one">
+      <div><div><a href="#"><img src="./img/623ca7096e8112cde0404b2d2fe2213c63ea62d7_1686787440.jpg" alt=""><figcaption>هدفون</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/68971590561c982a47d0bd5df6e5ef686f24c15d_1641027821.jpg" alt=""><figcaption>سرخ کن</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/6a295f3e69ff44a1387a6ec3b7cbf1470fffe322_1644384595.jpg" alt=""><figcaption>جوراب</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg" alt=""><figcaption>موبایل</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/111223356.jpg" alt=""><figcaption>کنسول خانگی</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/cdb29c80769b0967d550fb7c3b9e3d41bcc5c668_1678009665.jpg" alt=""><figcaption>تبلت</figcaption></a></div></div>
+      <div><div><a href="#"><img src="./img/c4bec70779ae010869bb611915ec7dae2736cb2a_1670056418.jpg" alt=""><figcaption>موتورسیکلت</figcaption></a></div></div>
+    </div>
+    <div class="two">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwipere", {
+      slidesPerView: 6,
+      spaceBetween: 5,
+      centeredSlides: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+    
+
+
+
+    </div>
+</body>
 </html>

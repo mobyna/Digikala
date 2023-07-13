@@ -1,0 +1,61 @@
+div.parent>div.offer{
+    width: 1300px;
+    height: 350px;
+    margin: auto;
+}
+div.parent>div.offer>h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.parent>div.offer>div.one{
+    width: inherit;
+    height: 150px;
+    border:1px solid #c8c9cb;
+}
+div.parent>div.offer>div.one>div{
+    width: 181px;
+    height: 150px;
+    display: inline-block;
+    border-right:1px solid #c8c9cb;
+    margin: 0;
+}
+div.parent>div.offer>div.two{
+    width: inherit;
+    height: 150px;
+    border:1px solid #c8c9cb;
+}
+div.parent>div.offer>div.two>div{
+    width: 181px;
+    height: 150px;
+    display: inline-block;
+    border-right:1px solid #c8c9cb;
+    margin: 0;
+}
+div.parent>div.offer>div.one>div>div{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    background-color: #c8c9cb;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div.parent>div.offer>div.one>div>div>a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+div.parent>div.offer>div.one>div>div>a>img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 12px;
+    top: 10px;
+}
+div.parent>div.offer>div.one>div>div>a>figcaption{
+    width: auto;
+    margin: 0 auto;
+}
+
+
+

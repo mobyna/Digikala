@@ -1,0 +1,88 @@
+div.parent>div.section{
+    margin: auto;
+    width: 1200px;
+    height: 550px;
+}
+div.parent>div.section>h1{
+    text-align: center;
+    margin-top: 50px;
+}
+div.parent>div.section>div.one{
+    width:inherit;
+    height: 250px;
+    margin: auto;
+
+}
+div.parent>div.section>div.one>a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+div.parent>div.section>div.one>a>figcaption{
+    text-align: center;
+
+}
+div.parent>div.section>div.one>a>img{
+    width: 170px;
+    height: 170px;
+    margin: 0px 13px;
+    margin-top: 40px;
+    
+
+}
+
+div.parent>div.section>div.two{
+    width:inherit;
+    height: 250px;
+    margin: auto;
+
+}
+div.parent>div.section>div.two>a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+div.parent>div.section>div.two>a>figcaption{
+    text-align: center;
+
+}
+div.parent>div.section>div.two>a>img{
+    width: 170px;
+    height: 170px;
+    margin: 0px 13px;
+    margin-top: 40px;
+}
+
+div.parent>div.three{
+    width: 1300px;
+    height: 300px;
+    margin: auto;
+}
+div.parent>div.three>div.abc{
+    width: 640px;
+    height: 260px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+div.parent>div.three>div.def{
+    width: 640px;
+    height: 260px;
+    position: relative;
+    top: 20px;
+    right: 16px;
+    display: inline-block;
+}
+div.parent>div.three>a{
+    display: inline-block;
+}
+div.parent>div.three>div.abc>a>img{
+    width: 640px;
+    height: 260px;
+    border-radius: 10px;
+}
+div.parent>div.three>div.def>a>img{
+    width: 640px;
+    height: 260px;
+    border-radius: 10px;
+}

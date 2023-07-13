@@ -1,0 +1,25 @@
+div.parent>div.icon{
+    width:inherit;
+}
+
+div.parent>div.icon>div.one{
+    width:1300px;
+    height: 150px;
+    margin: auto;
+}
+
+div.parent>div.icon>div.one>a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+div.parent>div.icon>div.one>a>img{
+    width: 50px;
+    height: 50px;
+    margin: 50px 50px 0px 50px;
+}
+div.parent>div.icon>div.one>a>figcaption{
+    text-align: center;
+}
