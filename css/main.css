@@ -6,12 +6,16 @@
 @import"../css/body.css";
 @import"../css/body2.css";
 @import"../css/body3.css";
+@import"../css/body3.5.css";
 @import"../css/body4.css";
 @import"../css/body5.css";
+@import"../css/body6.css";
+@import"../css/body7.css";
+@import"../css/footer.css";
 
 @font-face{
     font-family: myFont;
-    src: url(../font/Iranian\ Sans.ttf);
+    src: url(../font/Yekan.ttf);
 }
 *{
     margin: 0;

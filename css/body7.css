@@ -1,0 +1,127 @@
+div.parent>div.bestoff{
+    width: 1300px;
+    height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #c8c9cb;
+    margin-top: 20px;
+}
+div.parent>div.bestoff>h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+div.parent>div.bestoff>h3>span{
+    position: relative;
+    top: 5px;
+}
+div.parent>div.bestoff>div.one{
+    width: 1300px;
+    height: 280px;
+    margin-top: 30px;
+}
+div.parent>div.bestoff>div.one>a{
+    text-decoration: none;
+}
+div.parent>div.bestoff>div.one>a>div{
+    width: 212px;
+    height: 275px;
+    display: inline-block;
+    border-left: 0.5px solid #c8c9cb;
+    border-bottom: 0.5px solid #c8c9cb;
+    position: relative;
+}
+div.parent>div.bestoff>div.one>a>div>img{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+div.parent>div.bestoff>div.one>a>div>div.redp{
+    border-radius: 100%;
+    border: 1px solid #EF394E;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    background-color: #FFFFFF;
+}
+div.parent>div.bestoff>div.one>a>div>div.price{
+    width: 212px;
+    height: 60px;
+    margin: auto;
+}
+div.parent>div.bestoff>div.one>a>div>div.price>h4{
+    display:inline-block ;
+    color: #535374;
+    margin-right: 50px;
+}
+div.parent>div.bestoff>div.one>a>div>div.price>h4>p{
+    display:inline-block ;
+    color: #535374;
+    margin-right: 50px;
+}
+div.parent>div.bestoff>div.one>a>div>div.price>h4>div.off{
+    background-color:#EF394E;
+    border-radius: 10px;
+    color:#FFFFFF;
+    width:33px;
+    height: 18px;
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    left:40px;
+}
+div.parent>div.bestoff>div.one>a>div>div.price>del{
+    display: block;
+    font-size: 13px;
+    color:#535374 ;
+    opacity: 70% ;
+    margin-right: 150px;
+}
+
+/*to read*/
+
+div.parent>div.read{
+    width: 1300px;
+    height: 340px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+div.parent>div.read>div.head{
+    width: 1300px;
+    height: 65px;
+}
+div.parent>div.read>div.head>p{
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+div.parent>div.read>div.head>a{
+    text-decoration: none;
+    display: inline-block;
+    color: #35A6C8;
+    margin-right: 950px;
+    margin-top: 20px;
+}
+div.parent>div.read>div.box{
+    width: 315px;
+    height: 275px;
+    border-radius: 10px;
+    border:1px solid #c8c9cb ;
+    display: inline-block;
+    margin: 0 3px;
+}
+div.parent>div.read>div.box>img{
+    width: 315px ;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #535374;
+    font-size: 13px;
+    font-weight: lighter;
+    vertical-align: top;
+}

@@ -73,10 +73,7 @@ div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price{
 div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a{
   text-decoration: none;
 }
-div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>span{
-  display:inline-block ;
-  color: #535374;
-}
+
 div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.product>a>div.price>h4{
  display:inline-block ;
  color: #535374;
@@ -102,7 +99,6 @@ div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>div.rest{
   width: 260px;
   height: 128px;
   margin: auto;
-  background-color: deeppink;
 }
 div.parent>div.redbox>div.swiper>div.swiper-wrapper>div>a{
   text-decoration: none;

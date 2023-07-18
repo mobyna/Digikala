@@ -100,3 +100,113 @@ div.parent>div.violet>div.left>div.imgs>div.two>a>img{
     width: 116px;
     height: 116px;
 }
+
+
+div.parent>div.digiclub{
+    width: 1300px;
+    height: 85px;
+    margin: auto;
+    background-color: #35A6C8;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+div.parent>div.digiclub>a{
+    display: inline-block;
+}
+div.parent>div.digiclub>a>img{
+    width: 120px;
+    height: 33px;
+    margin-top: 30px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 70px;
+}
+div.parent>div.digiclub>div.zero{
+    width: 810px;
+    height: 65px;
+    display: inline-block;
+}
+div.parent>div.digiclub>div.zero>a{
+    display: inline-block;
+}
+div.parent>div.digiclub>div.zero>a>div.one{
+    width: 270px;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    top: 9px;
+}
+div.parent>div.digiclub>div.zero>a>div.one>img{
+    height: 60px;
+    width: 168px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+div.parent>div.digiclub>div.zero>a>div.one>h5{
+    color:#2f2f30;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    bottom: 23px;
+}
+div.parent>div.digiclub>div.zero>a>div.one>h5>span{
+    position: relative;
+    top: 8px;
+}
+div.parent>div.digiclub>div.zero>a>div.two{
+    width: 270px;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    top: 9px;
+}
+div.parent>div.digiclub>div.zero>a>div.two>img{
+    height: 60px;
+    width: 168px;
+    margin-top: 3px;
+}
+div.parent>div.digiclub>div.zero>a>div.two>h5{
+    color:#2f2f30;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    bottom: 23px;
+}
+div.parent>div.digiclub>div.zero>a>div.two>h5>span{
+    position: relative;
+    top: 8px;
+}
+div.parent>div.digiclub>div.zero>a>div.three{
+    width: 270px;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    right: 850px;
+    bottom: 60px;
+}
+div.parent>div.digiclub>div.zero>a>div.three>img{
+    height: 60px;
+    width: 168px;
+    margin-top: 3px;
+    margin-right: 30px;
+}
+div.parent>div.digiclub>div.zero>a>div.three>h5{
+    color:#2f2f30;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    bottom: 23px;
+}
+div.parent>div.digiclub>div.zero>a>div.three>h5>span{
+    position: relative;
+    top: 8px;
+}
