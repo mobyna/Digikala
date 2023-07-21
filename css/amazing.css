@@ -1,0 +1,74 @@
+@import"../css/header.css";
+@import"../css/menu.css";
+@import"../css/amredbox.css";
+
+
+div.parent>div.red{
+    width: 100%;
+    height: 60px;
+    background-color: #EF394E;
+}
+div.parent>div.red>h1{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+div.parent>div.swipeer{
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div.grey{
+    background-color: #e6e8eb;
+    border-radius: 5px;
+
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div.grey>a{
+    text-decoration: none;
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div.grey>a>img{
+    width: 90px;
+    height: 90px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div.grey>a>p{
+    text-align: center;
+    font-size: 15px;
+    color: #303030;
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div>img{
+    width: 90px;
+    height: 90px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+div.parent>div.swipeer>div.swiper>div.swiper-wrapper>div.swiper-slide>div>p{
+    text-align: center;
+    font-size: 15px;
+    color: #515151;
+
+}

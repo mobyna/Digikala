@@ -46,8 +46,7 @@ div.parent>div.brands>div>h3>span{
     width: 1300px;
     height: 120px;
     background-color: #FFFFFF;
-    margin-bottom: 5px;
-    border-left: 1px solid #c8c9cb;
+    margin-bottom: 5px; 
   }
   div.parent>div.brands>div.swiper>div.swiper-wrapper>div.swiper-slide>div.one{
     aspect-ratio: auto 110 / 110;

@@ -1,11 +1,16 @@
 div.parent>div.header{
     width: 100%;
     height: 125px;
+    display: contents;
 }
 
 div.parent>div.header>div.headertwo{
     width: inherit;
     height: 65px;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 div.parent>div.header>a.one>img{
@@ -46,15 +51,25 @@ div.parent>div.header>div.headertwo>button{
     height: 40px;
     vertical-align: top;
     margin-right: 560px;
-    background-color: #F1F2F4;
-    border:1px;
+    background-color: #FFFFFF;
+    border-radius: 5PX;
+    border: 0.5px solid #c8c9cb;
     margin-left: 10px;
     display: inline-block;
+    color: #303030;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+div.parent>div.header>div.headertwo>button>span{
+    position: relative;
+    top: 8px;
 }
 div.parent>div.header>i{
     vertical-align: top;
 
 }
+
 div.parent>div.header>span{
     margin-bottom: 10px;
 }

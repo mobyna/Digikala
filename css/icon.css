@@ -21,3 +21,20 @@ div.parent>div.icon>div.one>a>img{
 div.parent>div.icon>div.one>a>figcaption{
     text-align: center;
 }
+div.parent>div.icon>div.one>a>div.circle{
+    background-color: #c8c9cb;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 50px 50px 0px 50px;
+}
+div.parent>div.icon>div.one>a>div.circle>div{
+    background-color:#3d3e3e;
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 22px;
+    margin-right: 4px;
+}

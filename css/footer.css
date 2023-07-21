@@ -30,10 +30,12 @@ div.parent>div.foot>div.logo>button>span{
     position: relative;
     top: 5px;
 }
-div.parent>div.foot>p{
+div.parent>div.foot>p.first{
     margin: 20px;
     color: #535374;
     font-size: 15px;
+    position: relative;
+    left: 500px;
 }
 div.parent>div.foot>div.zero{
     width: 1450px;
